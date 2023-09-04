@@ -8,7 +8,7 @@ class NewTaskForm extends React.Component {
     for (let elem of this.props.todo) {
       if (elem.timerStatus === true) {
         dis = true;
-        break;
+        break
       }
     }
     return (

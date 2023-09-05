@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+
+import { v4 as uuid } from 'uuid';
+
 import NewTaskForm from './NewTaskForm';
 import TaskList from './TaskList';
 import Footer from './Footer';
-
-import { v4 as uuid } from 'uuid';
 
 class App extends React.Component {
   constructor() {
